@@ -388,6 +388,7 @@ h2{
 }
 
 .recipe-details {
+    display:none;
     background: #fff;
     border-radius: 10px;
     width: 90%;
