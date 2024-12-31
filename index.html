@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homies Kitchen</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- main container -->
+        <div class="main-conatiner">
+
+            <!-- header nav  -->
+            <div class="header-nav">
+                <div class="logo-section">
+                    <img src="./logo.png" alt="Homies Kitchen Logo">
+                    <h3>Homies Kitchen</h3>
+                </div>
+                <div class="hamburger" onclick="toggleSidebar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="other-section">
+                    <li>Features</li>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                </ul>
+                <div class="sidebar" id="sidebar">
+                    <ul>
+                        <li>Features</li>
+                        <li>Contact Us</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- background video section  -->
+            <section class="video-background">
+                <video autoplay loop muted class="background-video">
+                    <source
+                        src="https://media.istockphoto.com/id/1488569456/video/meat-with-fresh-vegetables-cooking-in-asian-wok-pan.mp4?s=mp4-640x640-is&k=20&c=rjE9F383gT6IxVNoFLd5Z1r1B4MDz8--wehFdjfC5RI="
+                        type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="content">
+                    <h1>Welcome to Homies Kitchen</h1>
+                    <p>Your favorite place for delicious food</p>
+                </div>
+            </section>
+
+            <!-- most important section  -->
+            <form>
+                <div class="search-bar-nav">
+                    <label for="text">
+                        <input type="text" id="search-item"
+                            placeholder="Enter your dish name" name="text"
+                            class="search-item">
+                    </label>
+                    <button id="search-btn" class="search-btn">Search</button>
+                </div>
+            </form>
+
+            <!-- place where dishes recipe will show -->
+            <div id="recipe-container" class="recipe-container">
+                <h2>Search Your Recipe Here</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-close-btn">X</button>
+                <div class="recipe-details-content"></div>
+            </div>
+
+            <!-- footer -->
+            <div class="footer-div">
+                <div class="features-footer">
+                    <h3>Features</h3>
+                    <p>1. Recipe Collection</p>
+                    <p>2. Meal Planning</p>
+                </div>
+                <div class="about-footer">
+                    <h3>About us</h3>
+                    <p>Homies Kitchen started with a simple idea: to share
+                        easy-to-make, delicious recipes with home cooks
+                        everywhere. We believe that everyone, regardless of
+                        skill level, can create incredible meals with a little
+                        guidance and inspiration.</p>
+                </div>
+                <div class="contact-footer">
+                    <h3>Contact</h3>
+                    <p>Name: sde_saharsh</p>
+                    <p>Email: saharshkhalokar935@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
